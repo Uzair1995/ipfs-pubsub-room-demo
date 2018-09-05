@@ -10,7 +10,8 @@
   "author": "Pedro Teixeira <i@pgte.me>",
   "license": "MIT",
   "dependencies": {
-    "browserify": "^14.4.0",
+    "async": "^2.6.1",
+    "browserify": "^14.5.0",
     "http-server": "^0.10.0",
     "ipfs": "^0.31.7",
     "ipfs-pubsub-room": "^1.2.1"

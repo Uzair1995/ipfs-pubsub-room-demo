@@ -1,0 +1,4 @@
+<input type="text" [value]="msg" (input)="msg = $event.target.value" placeholder="Type message ...">
+<input type="text" [value]="peerId" (input)="peerId = $event.target.value" placeholder="Type peer to send ...">
+<button (click)="sendMsg()">Send!</button>
+<button (click)="broadcastMsg()">Broadcast!</button>
